@@ -1,0 +1,23 @@
+{
+  "name": "node25-hiep-sequelize",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Hoh0907/Node25_PhamLeHoangHiep_BTSequelize.git",
+  "author": "Hiệp Phạm <zeroblack0900@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.26.0",
+    "sequelize-auto": "^0.8.8",
+    "sequelize-cli": "^6.5.2",
+    "sqlite3": "^5.1.2",
+    "tedious": "^15.1.2"
+  }
+}
